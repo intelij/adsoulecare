@@ -48,6 +48,7 @@
 
 :root{
 	--primary-color				: #273A29;
+	--primary-color-new 		: #2c2d54;
 	--secondary-color			: #F5F5F5;
 	--bg-color					: #FFFFFF;
 	--text-color				: #757575;
@@ -87,7 +88,7 @@ body{
 }
 
 ::selection{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	background-color: var(--accent-color);
 	filter: invert(1);
 }
@@ -106,7 +107,7 @@ h6{
 	margin :0;
 	font-weight: 700;
 	line-height: 1.2em;
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 figure{
@@ -256,7 +257,7 @@ body{
 	bottom: 0%;
 	width: 102%;
 	height: 100%;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	transition: all 0.5s ease-in-out;
 	z-index: -1;
 	transform: skewY(9.3deg) scaleY(0);
@@ -267,7 +268,7 @@ body{
 }
 
 .btn-default.btn-highlighted:hover{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .btn-default.btn-highlighted:hover::before{
@@ -284,7 +285,7 @@ body{
 	font-weight: 700;
 	line-height: normal;
 	text-transform: capitalize;
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	padding-right: 20px;
 	transition: all 0.4s ease-in-out;
 }
@@ -321,7 +322,7 @@ body{
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -382,7 +383,7 @@ body{
 }
 
 .dark-section{
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 }
 
 .section-row{
@@ -429,7 +430,7 @@ body{
     font-weight: 400;
 	font-style: italic;
 	text-transform: capitalize;
-    color: var(--primary-color);
+    color: var(--primary-color-new);
 	padding-left: 18px;
     margin-bottom: 10px;
 }
@@ -561,7 +562,7 @@ header.main-header .header-sticky.active{
 	font-weight: 600;
 	line-height: 1.2em;
 	padding: 14px 15px !important;
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
@@ -592,7 +593,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	border: 1px solid var(--dark-divider-color);
 	transition: all 0.3s ease-in-out;
 	text-align: left;
@@ -701,7 +702,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
     width: 100%;
 	padding: 0;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .slicknav_menu ul{
@@ -855,7 +856,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content-box{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	border-radius: 20px;
 	margin-bottom: 30px;
 	padding: 3.125vw;
@@ -1026,7 +1027,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	border-radius: 50%;
 	width: 100%;
 	height: 100%;
@@ -1229,7 +1230,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	width: 100%;
 	height: 100%;	
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	opacity: 70%;
 }
 
@@ -1396,7 +1397,7 @@ header.main-header .header-sticky.active{
 }
 
 .section-footer-text p a:hover{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .dark-section .section-footer-text p a:hover{
@@ -1444,7 +1445,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	border-radius: 50%;
 	width: 100%;
 	height: 100%;
@@ -1566,7 +1567,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	opacity: 80%;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	width: 100%;
 	height: 100%;
 }
@@ -1654,7 +1655,7 @@ header.main-header .header-sticky.active{
 
 .work-steps-item.active .work-step-no h3,
 .work-steps-item:hover .work-step-no h3{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .work-step-content{
@@ -1746,7 +1747,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	width: 100%;
 	height: 0;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	border-radius: 999px 999px 0 0;
 	transition: all 0.4s ease-in-out;
 }
@@ -1757,7 +1758,7 @@ header.main-header .header-sticky.active{
 }
 
 .fact-item.fact-dark-box{
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	padding: 30px 25px;
 }
 
@@ -1975,7 +1976,7 @@ header.main-header .header-sticky.active{
 }
 
 .pricing-box.highlighted-box{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .pricing-box.highlighted-box .pricing-header h3,
@@ -1999,7 +2000,7 @@ header.main-header .header-sticky.active{
 }
 
 .pricing-benefit-list ul li{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
     display: inline-flex;
     align-items: center;
 }
@@ -2177,7 +2178,7 @@ header.main-header .header-sticky.active{
 .review-image img{
 	width: 100%;
 	max-width: 45px;
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--primary-color-new);
 	border-radius: 50%;
 }
 
@@ -2185,7 +2186,7 @@ header.main-header .header-sticky.active{
 	width: 45px;
 	height: 45px;
 	background-color: var(--accent-color);
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--primary-color-new);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -2204,7 +2205,7 @@ header.main-header .header-sticky.active{
 }
 
 .review-image.add-more:hover i{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .review-rating-star{
@@ -2303,7 +2304,7 @@ header.main-header .header-sticky.active{
 	font-weight: 600;
 	line-height: 1.4em;
     background: transparent;
-    color: var(--primary-color);
+    color: var(--primary-color-new);
 	border-bottom: 1px solid var(--divider-color);
     padding: 5px 35px 25px 0px;
 	transition: all 0.3s ease-in-out;
@@ -2339,7 +2340,7 @@ header.main-header .header-sticky.active{
 
 .faq-accordion .accordion-button:not(.collapsed)::after{
     content: '\f068';
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .faq-accordion .accordion-item .accordion-body{
@@ -2374,7 +2375,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	opacity: 80%;
 	width: 100%;
 	height: 100%;
@@ -2792,7 +2793,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-newsletter-form .form-group .newsletter-btn:hover i{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .footer-copyright{
@@ -2945,7 +2946,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -2997,7 +2998,7 @@ header.main-header .header-sticky.active{
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	border-radius: 18px;
 	padding: 20px;
 	z-index: 1;
@@ -3087,7 +3088,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -3234,7 +3235,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -3331,7 +3332,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -3487,7 +3488,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-social-icon ul li a:hover{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	color: var(--white-color);
 }
 
@@ -3582,7 +3583,7 @@ header.main-header .header-sticky.active{
 }
 
 .page-catagory-list ul li:hover a{
-    color: var(--primary-color);
+    color: var(--primary-color-new);
 }
 
 .page-catagory-list ul li a::before{
@@ -3664,7 +3665,7 @@ header.main-header .header-sticky.active{
 }
 
 .sidebar-cta-contact a:hover{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .sidebar-cta-contact a img{
@@ -3775,7 +3776,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 999px 999px 0 0;
     width: 100%;
     height: 0;
@@ -3859,7 +3860,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -3923,7 +3924,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	opacity: 50%;
 }
 
@@ -4251,7 +4252,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-entry p strong{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -4321,7 +4322,7 @@ header.main-header .header-sticky.active{
     font-size: 20px;
 	font-weight: 500;
     text-transform: capitalize;
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	display: inline-flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -4343,7 +4344,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-tags .tag-links a:hover{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .post-social-sharing{
@@ -4379,7 +4380,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-social-sharing ul li:hover a{
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 }
 
 .post-social-sharing ul li a i{
@@ -4415,7 +4416,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
 	transform: scale(0);
-    background: var(--primary-color);
+    background: var(--primary-color-new);
 	border-radius: 20px;
 	opacity: 40%;
     width: 100%;
@@ -4530,7 +4531,7 @@ header.main-header .header-sticky.active{
 }
 
 .case-study-catagery-list ul li span a:hover{
-    background: var(--primary-color);
+    background: var(--primary-color-new);
 }
 
 .case-study-catagery-list ul li span a i{
@@ -4684,7 +4685,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-team-member ul li span{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 	font-size: 20px;
 	font-weight: 700;
 }
@@ -4769,7 +4770,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -4884,7 +4885,7 @@ header.main-header .header-sticky.active{
 }
 
 .page-testimonials .testimonial-item .author-content h3{
-	color: var(--primary-color);
+	color: var(--primary-color-new);
 }
 
 .page-testimonials .testimonial-item .author-content p{
@@ -4947,7 +4948,7 @@ header.main-header .header-sticky.active{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-new);
 	border-radius: 20px;
     opacity: 0%;
     visibility: hidden;
@@ -5032,7 +5033,7 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	max-width: 420px;
 	display: inline-block;
-	background: var(--primary-color);
+	background: var(--primary-color-new);
 	border-radius: 20px;
 	padding: 30px;
 }
@@ -5171,7 +5172,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: var(--primary-color);
+	background-color: var(--primary-color-new);
 	border-radius: 50%;
 	width: 100%;
 	height: 100%;
